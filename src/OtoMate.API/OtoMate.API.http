@@ -1,0 +1,6 @@
+@OtoMate.API_HostAddress = http://localhost:5294
+
+GET {{OtoMate.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

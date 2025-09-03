@@ -3,9 +3,56 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{099D6D72-8A66-4753-8612-5C2C2467EAA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A1EA6651-726D-4712-ACE9-2E2C9E8041BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtoMate.Domain", "src\OtoMate.Domain\OtoMate.Domain.csproj", "{B73E7EF5-D47E-41ED-B576-3080EDF365C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtoMate.Application", "src\OtoMate.Application\OtoMate.Application.csproj", "{3C8FD902-6220-4F27-BD3C-4D26ECF951B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtoMate.Infrastructure", "src\OtoMate.Infrastructure\OtoMate.Infrastructure.csproj", "{F398E424-3A2E-46A8-9FE9-E53BACFDB818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtoMate.Web", "src\OtoMate.Web\OtoMate.Web.csproj", "{074C8978-AD23-443D-B89D-03D2C6EC4245}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtoMate.API", "src\OtoMate.API\OtoMate.API.csproj", "{4FA1D7C4-7E9A-44E6-8C7F-91911B14DAD4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B73E7EF5-D47E-41ED-B576-3080EDF365C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73E7EF5-D47E-41ED-B576-3080EDF365C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73E7EF5-D47E-41ED-B576-3080EDF365C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73E7EF5-D47E-41ED-B576-3080EDF365C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C8FD902-6220-4F27-BD3C-4D26ECF951B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C8FD902-6220-4F27-BD3C-4D26ECF951B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C8FD902-6220-4F27-BD3C-4D26ECF951B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C8FD902-6220-4F27-BD3C-4D26ECF951B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F398E424-3A2E-46A8-9FE9-E53BACFDB818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F398E424-3A2E-46A8-9FE9-E53BACFDB818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F398E424-3A2E-46A8-9FE9-E53BACFDB818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F398E424-3A2E-46A8-9FE9-E53BACFDB818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074C8978-AD23-443D-B89D-03D2C6EC4245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074C8978-AD23-443D-B89D-03D2C6EC4245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074C8978-AD23-443D-B89D-03D2C6EC4245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074C8978-AD23-443D-B89D-03D2C6EC4245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA1D7C4-7E9A-44E6-8C7F-91911B14DAD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA1D7C4-7E9A-44E6-8C7F-91911B14DAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA1D7C4-7E9A-44E6-8C7F-91911B14DAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA1D7C4-7E9A-44E6-8C7F-91911B14DAD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B73E7EF5-D47E-41ED-B576-3080EDF365C4} = {099D6D72-8A66-4753-8612-5C2C2467EAA4}
+		{3C8FD902-6220-4F27-BD3C-4D26ECF951B5} = {099D6D72-8A66-4753-8612-5C2C2467EAA4}
+		{F398E424-3A2E-46A8-9FE9-E53BACFDB818} = {099D6D72-8A66-4753-8612-5C2C2467EAA4}
+		{074C8978-AD23-443D-B89D-03D2C6EC4245} = {099D6D72-8A66-4753-8612-5C2C2467EAA4}
+		{4FA1D7C4-7E9A-44E6-8C7F-91911B14DAD4} = {099D6D72-8A66-4753-8612-5C2C2467EAA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {65406068-626C-494E-BBF0-5CC32C9E6F00}
