@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OtoMate.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b299457dcc1ea36a5c3b1c92cee8eb9f5cd60349")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42ff096cc879972b96e1b005c24a77bedc85b599")]
 [assembly: System.Reflection.AssemblyProductAttribute("OtoMate.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OtoMate.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
